@@ -2,8 +2,8 @@
 # deploy_docker_registry.sh
 
 # Set AWS account ID and region
-ACCOUNTID="4901-0829-5743"
-REGION="us-east-1"
+ACCOUNTID="211125693531"
+REGION="us-west-2"
 
 # AWS ECR login
 echo "Logging in to AWS ECR..."
