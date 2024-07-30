@@ -16,15 +16,15 @@ terraform {
 
   backend "s3" {
 
-    bucket = "advanced-end-to-end-devsecops"
+    bucket = "terra-24"
 
     key = "state/terraform.tfstate"
 
-    region = "us-east-1"
+    region = "us-west-2"
 
     encrypt = true
 
-    dynamodb_table = "Terraform_lock"
+    dynamodb_table = "orders"
 
   }
 
