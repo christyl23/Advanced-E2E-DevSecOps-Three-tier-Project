@@ -1,5 +1,6 @@
 upstream myapp{
-    server a3082cf5949d04861b17e97adc2417c2-1071104462.us-east-1.elb.amazonaws.com:3000;
+     server a077eda35890045e499ccd6ceeac7c67-1152284338.us-west-2.elb.amazonaws.com:3000;  
+   # server a3082cf5949d04861b17e97adc2417c2-1071104462.us-east-1.elb.amazonaws.com:3000;
 }
 
 server{
